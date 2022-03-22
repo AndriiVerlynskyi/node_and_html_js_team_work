@@ -54,4 +54,4 @@ app.get(`/allusers`, (req, res) => {
     res.status(200).json(USERS)
 })
 
-app.listen(3000, () => { console.log('success') })
+app.listen(3000, () => { console.log('success on port 3000') })
